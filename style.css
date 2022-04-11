@@ -1,0 +1,55 @@
+.homepage {
+    position: relative;
+    }
+    
+.homepage-wiki {
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 15px;
+   
+}
+.homepage-inc {
+    margin-bottom: 10px;
+    height: 15px;
+}
+.homepage-logo {
+    height: 70px;
+}
+.main {
+    padding-right: 60px;
+
+}
+.meaning {
+    width: 1150px;
+}
+
+.img1 {
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+    margin: 15px;
+    margin-top: 85px;
+  width: 170px;
+    height: 300px;
+}
+.bike-pic1 {
+    width: 170px;
+    height: 240px;
+
+}
+.content {
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+}
+ol {
+    counter-reset: item;
+    padding-right: 10px;
+  }
+  ol>li {
+    display: block;
+  }
+  ol>li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+  }
